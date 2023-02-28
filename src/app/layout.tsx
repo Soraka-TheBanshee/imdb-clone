@@ -5,6 +5,7 @@ import './globals.css'
 export const metadata = {
   title: 'an coll title',
   description: 'IMDb clobe!',
+  
 }
 
 export default function RootLayout({

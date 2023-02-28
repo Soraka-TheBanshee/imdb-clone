@@ -9,10 +9,11 @@ interface MenuItemProps {
 
 export default function MenuItem({ title, link, Icon }:MenuItemProps) {
   return (
-    <div>
-      <Link href={link} >
-        <Icon />
-        <p className="" >{title}</p>
+    <div className="flex  " >
+      <Link href={link} 
+      className='hover:text-amber-400 ' >
+        <Icon className="text-2xl sm:hidden " />
+        <p className="hidden text-sm font-bold sm:inline-block " >{title}</p>
       </Link>
     </div>
   )
