@@ -1,6 +1,6 @@
 import Header from '@/components/Header/Header'
 import './globals.css'
-// import "./output.css";
+import Providers from './Providers'
 
 export const metadata = {
   title: 'an coll title',
@@ -16,14 +16,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+
+        <Providers >
+          <Header />
+
+          {/* Navbar */}
+
+          {/* Search */}
+
+          <main>{children}</main>
+        </Providers>
         
-        <Header />
-
-        {/* Navbar */}
-
-        {/* Search */}
-
-        <main>{children}</main>
       </body>
     </html>
   )
