@@ -24,7 +24,7 @@ export default function RootLayout({
 
           {/* Search */}
 
-          <main>{children}</main>
+          <main className='px-4 max-w-6xl mx-auto' >{children}</main>
         </Providers>
         
       </body>
