@@ -9,7 +9,8 @@ export default function Header() {
     <div className="
       flex justify-between items-center 
       max-w-6xl min-h-[70px] 
-      px-4 lg:px-6 sm:mx-auto " >
+      px-4 lg:px-6 sm:mx-auto
+      select-none " >
 
       <div className="flex gap-4 lg:gap-6">
         <MenuItem title="HOME" link="/" Icon={ImHome3} />
