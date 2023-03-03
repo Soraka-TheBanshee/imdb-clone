@@ -8,8 +8,8 @@ export default function Navbar() {
     dark:bg-gray-600
     bg-amber-100
     lg:text-lg " >
-      <NavbarItem title="Trending" urlParam="/weee/weeeeeee" />
-      <NavbarItem title="Top Rated" urlParam="/weee/woah" />
+      <NavbarItem title="Trending" urlParam="fetchTrending" />
+      <NavbarItem title="Top Rated" urlParam="fetchTopRated" />
     </div>
   )
 }
